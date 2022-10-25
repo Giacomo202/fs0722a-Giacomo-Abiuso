@@ -1,0 +1,20 @@
+.input:checked + p{
+background-color: yellow;
+}  /*con input checked signidica gli input quando sono segnati*/
+/*il +p significa che ogni p dopo un checked avrà le determinate caratteristiche*/
+
+.mouse:hover{ /*quando ci passi sopra*/
+    background-color: red;
+}
+
+.mouse2:hover a{ color: red;
+
+}
+
+table tr:nth-of-type(1){
+    background-color: grey;
+}
+
+table td::after{
+    content: "-css";
+}

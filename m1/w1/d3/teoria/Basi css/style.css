@@ -1,0 +1,60 @@
+
+
+
+/*
+anatomia di un blocco css
+selettore {
+        proprietà/regole:valore;
+        proprietà/regole:valore;
+        proprietà/regole:valore;
+        proprietà/regole:valore;
+        proprietà/regole:valore;
+        proprietà/regole:valore;
+        proprietà/regole:valore;
+        proprietà/regole:valore;
+
+
+        in caso di conflitti, la regola più in basso vince
+
+        in caso di gerarchia la specificità vince con peso
+
+
+}
+*/
+
+
+
+div{/*peso 1*/
+    color: red;
+}
+
+span{color: blue;}
+
+.testoblu{/*peso 10*/
+    color: blue;
+}
+
+#parola{/*peso 100*/
+     font-weight: bold;
+     color: purple;
+}
+
+
+/*selezione multipla e gerarchica*/
+
+div div, div span{ /*1+1=2 , 1+1=2*/
+    background-color: bisque;
+}
+
+ul li {
+    background-color: red;
+}
+ li > ul li{  /*con > si intendono i figli indiretti*/
+    background-color: yellow;
+ }
+
+ *{
+    color: black;
+ }
+
+ /*con !important il peso aumenta */

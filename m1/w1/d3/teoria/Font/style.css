@@ -1,0 +1,35 @@
+/*rem è la grandezza sstandard che equivale a 16px se non viene cambiata da root*/
+
+
+:root{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif; /*serve per dare un font a tutto il body ma deve essere disponibile da sistema operativo*/
+}
+
+h1{
+    text-shadow: 1px 1px 1px, 10px 15px 3px red;
+}
+
+#primo{
+    font-size: 10px;
+}
+
+#secondo{
+    font-size: 1rem;
+}
+
+#terzo{
+    font-size: 25px;
+}
+
+#terzo span{
+     font-size: 1em; /*la dimensione in px è prelevata dall'elemento parent*/
+}
+
+/*em sta per rem ma dal genitore*/
+
+
+/*font awesome per icone */
