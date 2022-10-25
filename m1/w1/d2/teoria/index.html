@@ -1,0 +1,146 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style></style>
+<body>
+
+    <!--table per aprire una tabella
+        tr per fare una colonna di tabella
+        td per una riga di tabella
+        quindi ogni tr avrà una o più td
+        con caption all'interno della table si descrive di cosa si tratta la tabella
+        nella thead si inserisce di i dati radice 
+        con tfoot si fa un resoconto della tabella
+        con colspan si definisce quante colonne da occupare
+        con rowspan si definisce quante righe da occupare
+    -->
+    <style>
+        
+    </style>
+    <table>
+        <caption> descrivo di cosa si tratta la tabella</caption>
+        <thead><tr><td>nome</td>
+        <td>cognome</td>
+        <td>anni</td></tr></thead>
+        
+        <tr>
+        <td>giacomo</td>
+        <td>abiuso</td>
+        <td>20</td>
+        </tr>
+
+        <tr>
+        <td>sara</td>
+        <td rowspan="2">sibilio</td>
+        <td>18</td></tr>
+
+        <tr>
+            <td>simone</td>
+            <td>21</td>
+        </tr>
+            <tfoot>
+                <td>numero utenti</td>
+                <td>2</td>
+
+            </tfoot>
+    </table>
+
+    <table>
+        <caption> descrivo di cosa si tratta la tabella</caption>
+        <thead><tr><td>nome</td>
+        <td>cognome</td>
+        <td>anni</td></tr></thead>
+        
+        <tr>
+        <td>giacomo</td>
+        <td>abiuso</td>
+        <td>20</td></tr>
+
+        <tr><td>sara</td>
+        <td >sibilio</td>
+        <td rowspan="2">18</td></tr>
+        <tr>
+        <td>margherita</td>
+        <td>mangiagli</td>
+        </tr>
+
+
+            <tfoot>
+                <td>numero utenti</td>
+                <td colspan="2">2</td>
+
+            </tfoot>
+    </table>
+
+
+    <!--ci sono tre tag form
+    input nel quale tipendentemente il type possiamo decidere cosa far inserire 
+    con placeholder si può inserire qualcosa all'interno dell'input per dire al lettore cosa inserire
+    select
+    textarea
+    
+    con method=post si inviano i dati direttamente senza sporcare il sito
+    con action si decide dove inviare i dati come una mai
+    (se si mettono si mettono entrambi insieme)
+    senza entrambi si sporca il sito
+    -->
+    <form method="post" action="anviamail.php" >
+        <input type="text" name="nome" placeholder="inserire il nome">
+        <input type="password" name="password" placeholder="password">
+        <input type="number" name="numero" placeholder="numero">
+
+      <!--con value possiamo immettere un valore nella selezione-->
+
+        <select name="city">
+            <option value="">--</option>
+            <option value="roma">Roma</option>
+            <option value="milano">Milano</option>
+            <option value="napoli">Napoli</option>
+        </select>
+
+        <!--con checkbox si mette il quadratino di accettazione
+        per usare al meglio una checkbox si mette una label per capire al meglio a cosa si riferisce
+        e inserendo un id uguale al for della label saranno collegati-->
+        <label for="consenso">accetto le condizione</label>
+
+        <input id="consenso" type="checkbox">
+
+
+        <!--con cols si intendono i caratteri da inserire
+        mentre con rows sono righe di cui fa parte l'are di testo
+        aumentando uno dei due o entrambi si ingrandirà o ridurrà la textarea-->
+
+        <textarea name="messaggio" cols="30" rows="10"></textarea>
+
+        <!--ci ssono diversi type di button 
+        con type button è un bottone fake perché non invia i dati
+        con type submit invia i dati
+        con type reset cancella tutti i dati inseriti-->
+        <button type="">invia</button>
+
+        
+
+    </form>
+    <!--per inserire un video bisogna mettere due video con 2 src uguali ma con diversa qualità e va definito il type-->
+    <video src="" type=""></video>
+    <video src="" type=""></video>
+
+    <!--ci sono diversi tipi di box 
+        servono per avere una sintassi più precisa
+    
+    container dove va il tutto
+    header il box principale 
+    nav per un box di navigazione
+    main quello con tanto 
+    aside per avere una side bar accanto al main
+    footer ill box finale--> 
+
+
+
+
+</body>
+</html>
