@@ -1,0 +1,57 @@
+body{
+    background-color: azure;
+}
+
+#logo, .fotofocaccia, .titolo, #titoloingredienti, #focaccia, #condimento, .contattaci, .vai-alla-ricetta, #foot{
+    text-align: center;
+ }
+
+ .italico{
+    font-style: italic;
+ }
+
+ #login{
+    text-align: right;
+ }
+
+#login:hover, .vai-alla-ricetta:hover, #numero:hover, #gmail:hover{
+    color: red;
+
+}
+
+.table{
+    text-align: center;
+}
+
+.boxfocaccia{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(255, 255, 0, 0.3);
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxcondimento{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(255, 0, 0, 0.3);
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ricetta{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.mail{
+    margin-left: 600px;
+    
+}
+
+#contattaci{
+    color: greenyellow;
+}
+
