@@ -1,0 +1,64 @@
+.q1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.q2{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+
+.q3{
+    max-width: 400px;
+    max-height: 100px;
+    overflow: scroll;/*ti permette di farscrollare nel caso il testo non c'entri*/
+}
+/*padding è un distanziamento dal bordo del quadrato creato*/
+#quadrato, .q4{
+    max-width: 400px;
+    max-height: 100px;
+    padding: 15px;
+    background-color: aqua;/*con box-sizing:border-box si va a far si che il padding verga preso da''interno del box*/
+
+}
+
+.full-h{
+    background-color: yellow;
+    height: 100%;
+    height: 50vh; /*attenzione perché se si stringe la finestra i caratteri possono uscire dalla box*/
+}
+
+.q5{
+    background-color: orangered;
+    margin-left:10px;/*serve per avere un distanziamento dalla pagina o dalle altre cose(è invisibile)*/
+    /*può anche avere valore negativo*/
+}
+
+/*il browser mette di base un foglio di stile per aggiungere un margine, per togliere ciò aggiungiamo il codice di mayer*/
+/*il foglio di reset va rimesso sempre sopra il foglio di stile*/
+
+/*è possibile anche non resettare tutto, ma il normalize, che si può usare grazie al necolas github*/
+
+
+/*CI DEVE SERMPRE ESSERE UN RESET O UN NORMALIZE*/
+
+#img-adattata{
+    width: 200px;
+    height: 100px;
+    border: 1px solid;
+    
+}
+#img-adattata img{
+    max-width: 100%;
+}
+
+#img-tagliata{
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-right: 100px;
+}
+
+/*linear gradient per sfumare da un colore specifico ad un altro*/
