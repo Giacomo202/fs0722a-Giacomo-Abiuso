@@ -1,0 +1,95 @@
+#body{
+    background-image: url(../img/sfondo.png);
+}
+
+#header{
+    background: rgb(0,235,255);
+    background: linear-gradient(90deg, rgba(0,235,255,1) 0%, rgba(97,98,255,0.9767981438515081) 33%, rgba(40,227,255,0.9582366589327146) 69%, rgba(56,0,255,1) 100%);
+    text-align: center;
+    margin: 10px;
+}
+#main{
+
+    background-color:white ;
+    text-align: center;
+    margin: 10px;
+    
+
+}
+
+.t{
+    opacity: 0.9;
+}
+
+#w{
+    color: white;
+}
+
+.h{
+    font-size: 20px;
+    font: bold;
+}
+
+.s{
+    border: 5px;
+}
+
+#table{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#caption{
+    background: rgb(0,235,255);
+    background: linear-gradient(90deg, rgba(0,235,255,1) 0%, rgba(97,98,255,0.9767981438515081) 33%, rgba(40,227,255,0.9582366589327146) 69%, rgba(56,0,255,1) 100%);
+    color: white;
+}
+
+.grey{
+    background-color: beige;
+}
+
+.td{
+    border: ;
+}
+
+#video{
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#novità{
+    background-color:grey;
+}
+
+#input{
+    border-bottom: dotted;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#bottone{
+    background-color: blue;
+    color: white;
+}
+
+.articoli{
+    margin: 10px;
+    border: 3px;
+    border: grey;
+    background-color: lightgray;
+
+}
+
+#footer{
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
+
+#mail{
+    color: blueviolet;
+}
+
