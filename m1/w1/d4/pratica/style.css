@@ -1,18 +1,22 @@
 #body{
+    margin-right: auto;
+    margin-left: auto;
     background-image: url(../img/sfondo.png);
 }
 
 #header{
+    margin-right: auto;
+    margin-left: auto;
     background: rgb(0,235,255);
     background: linear-gradient(90deg, rgba(0,235,255,1) 0%, rgba(97,98,255,0.9767981438515081) 33%, rgba(40,227,255,0.9582366589327146) 69%, rgba(56,0,255,1) 100%);
     text-align: center;
     margin: 10px;
 }
 #main{
-
+    
     background-color:white ;
     text-align: center;
-    margin: 10px;
+    
     
 
 }
@@ -84,6 +88,8 @@
 }
 
 #footer{
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
     color: white;
     background-color: blue;
