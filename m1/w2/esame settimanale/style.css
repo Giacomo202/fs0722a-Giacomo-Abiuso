@@ -1,0 +1,80 @@
+/*sfondo*/
+body{
+
+    background-image:url(albert-einstein-chi-era-5-curiosita-che-non-conosci-1024x512.jpg)
+    
+}
+
+/*perimetro totale della calcolatrice*/
+#calcolatrice{
+    background-image: url(istockphoto-488533036-1024x1024.jpg);
+    background-position: center;
+    height: 920px;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    background-color: azure;
+    font-size: 25px;
+    border-radius: 30px;
+    
+}
+
+/*schermo*/
+#screen{
+    background-image: url(albert-einstein-cartoon-character-has-idea_324746-781.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 5px;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    width: 550px;
+    height: 150px;
+    
+}
+
+/*bottoni della calcolatrice base*/
+.bottoneb{
+    height: 100px;
+    width: 105px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 5px;
+    background-color: white;
+    
+    
+}
+
+/*bottoni calcolatrice scientifica*/
+.bottones{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 6px;
+    background-color: white;
+   
+    
+}
+/*dimenzioni zero*/
+#zero{
+    height: 100px;
+    width: 350px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 5px;
+    background-color: white;
+    
+}
+
+/*uguale*/
+#uguale{
+    height: 80px;
+    width: 400px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 5px;
+    background-color: white;
+    
+}
