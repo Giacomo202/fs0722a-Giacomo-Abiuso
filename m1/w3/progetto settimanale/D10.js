@@ -401,7 +401,7 @@ let searchAndDivide=function(str){
 
 }
 
-/* ESERCIZIO 19
+/* ESERCIZIO 19 FATTO
   Scrivi una funzione chiamata "removeIndex" che riceve un numero come parametro e ritorna l'array "movies" fornito privo dell'elemento nella posizione ricevuta come parametro.
 */
 
@@ -426,12 +426,14 @@ let removeIndex=function(num){
 /* ESERCIZIO 20 FATTO
   Scrivi una funzione per selezionare l'elemento dotato di id "container" all'interno della pagina.
 */
-document.querySelector('#container')
+
+//document.querySelector('#container')
 
 /* ESERCIZIO 21 FATTO
   Scrivi una funzione per selezionare ogni tag <td> all'interno della pagina.
 */
-document.querySelectorAll('td')
+
+//document.querySelectorAll('td')
 
 /* ESERCIZIO 22 FATTO
   Scrivi una funzione che, tramite un ciclo, stampa in console il testo contenuto in ogni tag <td> all'interno della pagina.
@@ -448,8 +450,11 @@ for (let t in td){
   Scrivi una funzione per aggiungere un background di colore rosso a ogni link all'interno della pagina.
 */
 
-/*let ancora=document.querySelectorAll('a')
-ancora.style.backgroundcolor=red*/
+/*let ancora= function(){
+  document.querySelectorAll('a')
+ancora.style.backgroundcolor=red
+}
+*/
 
 /* ESERCIZIO 24 FATTO
   Scrivi una funzione per aggiungere un nuovo elemento alla lista non ordinata con id "myList".
@@ -462,12 +467,12 @@ lista.append(nelemento)*/
 /* ESERCIZIO 25 FATTO
   Scrivi una funzione per svuotare la lista non ordinata con id "myList".
 */
-let eliminaLista = function () {
+/*let eliminaLista = function () {
   let i = 0
   while (i < myList.length) {
     myList.pop(0)
   }
-}
+}*/
 
 /* ESERCIZIO 26 FATTO
   Scrivi una funzione per aggiungere ad ogni tag <tr> la classe CSS "test"
