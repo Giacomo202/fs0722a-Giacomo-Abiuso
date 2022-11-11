@@ -450,8 +450,8 @@ for (let t in td){
   Scrivi una funzione per aggiungere un background di colore rosso a ogni link all'interno della pagina.
 */
 
-/*let ancora= function(){
-  document.querySelectorAll('a')
+/*let coloreRosso= function(){
+ ancora= document.querySelectorAll('a')
 ancora.style.backgroundcolor=red
 }
 */
