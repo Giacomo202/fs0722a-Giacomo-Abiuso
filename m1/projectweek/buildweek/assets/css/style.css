@@ -1,0 +1,33 @@
+/*
+Impostazioni Generali
+*/
+
+body {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin-left: 30px;
+}
+
+.logo {
+text-align: center;
+}
+   
+.stella{
+
+transition: 1s;
+/* to black /
+*/filter: invert(1);
+/*or to blue */
+filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+
+
+   
+
