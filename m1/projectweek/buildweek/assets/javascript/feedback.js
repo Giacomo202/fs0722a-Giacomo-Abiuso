@@ -23,33 +23,35 @@ bottone.addEventListener('click', epicode)
 let stars = document.querySelectorAll('.cursor')
 
 
-let x=0
-for(let i=0 ; i<stars.length; i++) {
+
+for (let i = 0; i < stars.length; i++) {
 
     stars[i].addEventListener('click', function () {
-      x=i
+       
         
-        while(i>=0){
-            stars[i].classList.remove('stella')
-            i--
-            console.log(stars)
+        if(stars[i].classList.contains('stella')){
+
+            for(let contatore=0; contatore<=i; contatore++){
+
+                stars[contatore].classList.remove('stella')
+
+            }
+
         }
-        while(x<stars.length){
-            stars[x].classList.add('stella')
+        else if (!stars[i].classList.contains('stella')){
 
-            x++
+            for(let contatore=i+1; contatore<=10; contatore++){
+                
+                stars[contatore].classList.add('stella')
+                
+            }
         }
-
-        
-
-
     }
     )
-
-
 }
 
 
-let arr = [1, 2, 3]
+
+
 
 
