@@ -1,0 +1,48 @@
+
+.nav{
+   
+    display: flex;
+    background-color: antiquewhite;
+    opacity: 0.8;
+    padding: 1em;
+    border-radius: 60px;
+    width: 100;
+    margin: auto;
+
+}
+
+.ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;  
+    justify-content: space-between;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+}
+
+.li{
+    height: 70%;
+    display: flex;
+    width: 20%;
+    background-color: yellow;
+    border-radius: 40%;
+    opacity: 1;
+    color: brown;
+    margin-right: 1em;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+}
+
+#ape{
+    max-width: 60%;
+}
+
+#shop{ 
+    width: 35%;
+    height: 100%;
+}
+
+

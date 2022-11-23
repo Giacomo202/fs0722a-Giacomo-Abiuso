@@ -1,0 +1,32 @@
+.articolo{
+    display: flex;
+    color: #6d2b0c;
+    background-color: #fbf6e2;
+    border-radius: 30px;
+    flex-direction: column;
+}
+
+
+.testo_articolo{
+    text-align: left;
+    padding: 15px;
+}
+
+.miele_articolo{
+    padding: 20px;
+    
+    
+   
+}
+
+@media screen and (min-width:768px) {
+    .articolo{
+        flex-direction:row-reverse
+        
+    }
+    .miele_articolo{
+        max-width: 50%;
+    }
+
+    
+}

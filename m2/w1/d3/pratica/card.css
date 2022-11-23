@@ -1,0 +1,55 @@
+.card{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+    flex-direction: column;
+    background-color: #fbf6e2;
+    border-radius: 70px;
+    height: 260px;
+    color: #6d2b0c;
+
+
+}
+
+.miele{ 
+    max-width: 100%;
+    height: 60%;  
+}
+
+.testo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.miele_p{
+    flex: 2 0 66%;
+    text-align: center
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+.costo{
+    flex: 1 0 33%;
+    text-align: center;
+   
+
+    
+}
+
+.carrelo{
+    border: none;
+    color: #6d2b0c;
+    background-color:#f2df84;
+    border-radius: 15px;
+    width: 60%;
+}
+
+.piccolo{
+    font-size: 80% ;
+}
