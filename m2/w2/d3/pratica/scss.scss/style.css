@@ -1,0 +1,61 @@
+body div {
+  background-color: blueviolet;
+}
+body div header {
+  padding: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 20px;
+}
+body div header nav {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+body div header nav .grassetto {
+  font-size: 22px;
+  font-weight: 800;
+}
+body div header nav .bianco {
+  color: white;
+}
+body div main {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+body div main div h1 {
+  font-size: 60px;
+  font-weight: 800;
+}
+body div main div p {
+  width: 80%;
+  font-size: 22px;
+}
+body div main div .primo {
+  padding: 30px;
+  font-size: 20px;
+  margin: 15px;
+  margin-left: 0px;
+  background-color: rgb(70, 156, 206);
+  color: white;
+  border: blueviolet;
+  border-radius: 20px;
+}
+body div main div .secondo {
+  padding: 30px;
+  font-size: 20px;
+  background-color: orange;
+  border: none;
+  margin: 15px;
+  margin-left: 0px;
+  border: blueviolet;
+  color: white;
+  border-radius: 20px;
+}
+body div main img {
+  width: 80%;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=style.css.map */
