@@ -1,0 +1,104 @@
+nav {
+  background-color: #6c1af0;
+  color: white;
+}
+nav ul {
+  align-items: center;
+  position: absolute;
+  right: 0px;
+}
+nav ul li {
+  display: flex;
+  background-color: #6c1af0;
+  width: 70px;
+  justify-content: center;
+}
+@media screen and (min-width: 992px) {
+  nav ul li {
+    width: auto;
+  }
+}
+
+#sezione-alta {
+  padding: 30px;
+  height: 700px;
+  background: url("../pexels-aleksandar-pasaric.jpg");
+}
+#sezione-alta h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 60px;
+}
+#sezione-alta button {
+  background-color: #6c1af0;
+  color: white;
+  border: 1px solid #6c1af0;
+}
+
+#presentazione {
+  background-color: #f4f5f5;
+  padding: 40px;
+}
+#presentazione div {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  font-size: 80px;
+}
+
+#partnerships div {
+  text-align: center;
+}
+#partnerships div img {
+  max-width: 40%;
+}
+
+#clients {
+  margin-bottom: 80px;
+}
+h4 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 50px;
+}
+#clients p {
+  text-align: center;
+  margin-top: 70px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 40px;
+}
+#clients img {
+  margin-left: 48%;
+  max-width: 80px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+#clients h5 {
+  text-align: center;
+  font-size: 30px;
+}
+
+footer {
+  background-color: #6c1af0;
+  color: white;
+}
+footer div div:first-child {
+  font-size: 40px;
+}
+footer div div {
+  text-align: center;
+  line-height: 15px;
+}
+footer div div h5 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+footer p {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
+

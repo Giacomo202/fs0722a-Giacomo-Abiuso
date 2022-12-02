@@ -1,0 +1,126 @@
+//foglio di stile scss
+
+//impostazioni nav
+nav {
+    background-color: #6c1af0;
+    color: white;
+
+    ul {
+        align-items: center;
+        position: absolute;
+        right: 0px;
+        li{
+            display: flex;
+            background-color: #6c1af0;
+            width: 70px;
+            justify-content: center;
+            @media screen and (min-width:992px) {
+                width: auto;
+                
+            }
+        }
+    }
+}
+
+//impostazioni grattacielo
+#sezione-alta {
+    padding: 30px;
+    height: 700px;
+    background: url("../pexels-aleksandar-pasaric.jpg");
+
+    h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 60px;
+    }
+
+    button {
+        background-color: #6c1af0;
+        color: white;
+        border: 1px solid #6c1af0;
+    }
+}
+
+//impostazioni presentazione
+
+#presentazione {
+    background-color: #f4f5f5;
+    padding: 40px;
+
+    div {
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+//impostazioni partnerships
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 80px;
+}
+
+#partnerships {
+    div {
+        text-align: center;
+
+        img {
+            max-width: 40%;
+        }
+    }
+}
+
+
+// impostazioni clients
+h4{
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 80px;
+    text-align: center;
+}
+#clients{
+    margin-bottom: 80px;
+    text-align: center;
+    p{
+        text-align: center;
+        margin-top: 70px;
+        margin-left: 120px;
+        margin-right: 120px;
+        margin-bottom: 40px;
+    }
+    img{
+        margin-left: 48%;
+        justify-items: center;
+        max-width: 80px;
+        border-radius: 50%;
+        margin-bottom: 25px;
+        }
+
+    h5 {
+        text-align: center;
+        font-size: 30px;
+        }
+      
+}
+// impostazioni footer
+footer {
+    background-color: #6c1af0;
+    color: white;
+    div{
+        div:first-child{
+            font-size: 40px;
+        }
+        div{
+            h5{
+                font-size: 25px;
+                margin-bottom: 20px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            text-align: center;
+            line-height: 15px;
+        }
+    }
+    p{
+        text-align: center;
+    }
+}
+
