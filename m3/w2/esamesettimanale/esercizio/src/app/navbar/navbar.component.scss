@@ -1,0 +1,23 @@
+//impostazioni navbar
+.navbar{
+  margin-top: 0px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+}
+
+//impostazioni dei bottoni
+.bottone{
+  background-color: blue;
+  margin: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+//impostazione bottoni quando sono attivi
+.isActive{
+  color:aqua;
+}

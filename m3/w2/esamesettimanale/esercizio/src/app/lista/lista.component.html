@@ -1,0 +1,15 @@
+<div id="totale">
+
+  <label for="task" id="task">
+    <p>Aggiungi Task</p>
+    <input type="text" name="task" #task placeholder="Aggiungere task"  id="input"/>
+  </label>
+  <button type="button" (click)="addTask(task.value)" class="bottone">aggiungi</button>
+
+  <ul *ngFor="let item of list">
+    <li *ngIf="item.completed == false">
+      {{ item.title }}<button (click)="fatti(item.id)" class="bottone">completato</button>
+      <button (click)="removeTaskLista(item.id)" class="bottone">rimuovi</button>
+    </li>
+  </ul>
+</div>

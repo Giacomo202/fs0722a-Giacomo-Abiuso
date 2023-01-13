@@ -1,0 +1,6 @@
+<ul *ngFor="let item of arrayfatti">
+  <li *ngIf="item.completed == true">
+    {{ item.title }}<button (click)="sfatti(item.id)" class="bottone">non completato</button>
+    <button (click)="removeTaskFatti(item.id)" class="bottone">rimuovi</button>
+  </li>
+</ul>
