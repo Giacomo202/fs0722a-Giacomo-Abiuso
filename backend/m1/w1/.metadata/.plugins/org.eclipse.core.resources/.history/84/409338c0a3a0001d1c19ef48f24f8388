@@ -1,0 +1,22 @@
+package it.epicode.be;
+
+import java.util.Scanner;
+
+public class Helloworld {
+	static Scanner sc = new Scanner(System.in);
+	public static void main (String[] args)
+			{
+			// Stampa a console  la frase
+			System.out.println("This is my first Epicode Java Project!");
+			}
+	//esercizio 2
+	public static void es1(){
+		System.out.print("QInserire primo numero : ");
+		int num1 = Integer.parseInt(sc.nextLine());
+		System.out.print("Inserire secondo numero : ");
+		int num2 = Integer.parseInt(sc.nextLine());
+	}
+}
+
+
+

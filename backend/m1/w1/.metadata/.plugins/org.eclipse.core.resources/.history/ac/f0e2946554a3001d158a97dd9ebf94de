@@ -1,0 +1,28 @@
+package proggetto_m1_w1;
+
+public class Main {
+	  public static void main(String[] args) {
+		  
+		  //test per audioplayer
+		    AudioPlayer canzoneNeomelodica = new AudioPlayer("canzoneNeomelodica", 5, 3);
+		    canzoneNeomelodica.play();
+		    canzoneNeomelodica.setTitle("Canzone 2");
+		    canzoneNeomelodica.alzaVolume();
+		    canzoneNeomelodica.play();
+	  
+		  //test per il videoplayer
+	  		VideoPlayer videoDiGatti = new VideoPlayer("videoDiGatti", 4, 6, 7);
+	  		videoDiGatti.play();
+	  		videoDiGatti.aumentaLuminosita();
+	  		videoDiGatti.play();
+	  		
+	  	  //test per le immagini
+	  		Immagine fotoDiVacanze = new Immagine("fotoDiVacanze", 5);
+	  		fotoDiVacanze.show();
+	  		fotoDiVacanze.aumentaLuminosita();
+	  		fotoDiVacanze.show();
+	  		
+	  }
+}
+
+

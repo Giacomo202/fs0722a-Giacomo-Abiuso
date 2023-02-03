@@ -1,0 +1,9 @@
+package m1_w1_d1_teoria;
+
+public class mainProject {
+
+	public static void main (String[] args) {
+		//TODO Auto-generated method stub
+		System.out.println("Hello word");
+	}
+}

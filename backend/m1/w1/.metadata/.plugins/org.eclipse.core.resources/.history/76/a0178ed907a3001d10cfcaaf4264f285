@@ -1,0 +1,95 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("ciao");
+		
+		String stringa = "ciao";
+		
+		System.out.println(stringa.toUpperCase());
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("inserire nome :");
+		
+		String nome = scanner.nextLine();
+		
+		System.out.println("Ciao " + nome);
+		/*--------------------------------------*/
+		
+		System.out.println(Math.abs(-55));// numero assoluto 
+		System.out.println(Math.min(55, 220)); // minimo e con max troviamo il massimo
+		
+		/*--------------------------------------*/
+		//operatori logici
+		
+		boolean x = 3 < 10 && 3 % 2 == 0;
+		boolean y= 3 < 10 | 3 % 2 == 0;
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println(!x);
+		
+		/*-----------------------------------------*/
+		//if e ternario operator
+		boolean isOnline= false;
+		if(isOnline) {
+			System.out.println("è online");
+		}else {
+			System.out.println("non è online");
+		}
+		
+		String name = "marco";
+		
+		if(name== "luca") {
+			System.out.println( "è Luca");
+		}else if(name == "marco") {
+			System.out.println("è Marco");
+		}else {
+			System.out.println ("è qualcun altro");
+		}
+		
+		String w = 33<10 ? "ciao":"Buongiorno";
+		System.out.println(w);
+		/*------------------------------------------*/
+		//switch
+		
+		switch(name) {
+		case "luca":
+			System.out.println("minchia luca");
+			break;
+		case "marco":
+			System.out.println("minchia marco");
+			break;
+		case "giovanni":
+			System.out.println("mincia giovanni");
+			break;
+		default : 
+			System.out.println("minchia chiunque tu sia");
+			
+		} 
+		/*---------------------------------------------*/
+		//while
+		
+		int i = 0;
+		while(i<=5) {
+			System.out.println(i);
+			i++;
+		}
+		do {
+			System.out.println(i);
+			i++;
+		}while (i<5);
+				
+		
+		
+	}
+}
+		
+		
+		
+		
+	
+
+

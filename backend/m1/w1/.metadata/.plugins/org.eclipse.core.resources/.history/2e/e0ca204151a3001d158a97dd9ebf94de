@@ -1,0 +1,11 @@
+package proggetto_m1_w1;
+
+public class main {
+	  public main(String[] args) {
+	    AudioPlayer player = new AudioPlayer("Canzone 1", 5, 3);
+	    player.play();
+	    player.setTitle("Canzone 2");
+	    player.play();
+	  }
+	}
+
