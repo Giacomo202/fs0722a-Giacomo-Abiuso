@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function startedDelayed() {
+            return new Promise(resolve => {
+                setTimeout(() => {
+                    resolve('it ends');
+                }, 5000);
+            });
+        }
+
+        async function asyncFunction() {
+            console.log('start async');
+            let ends = await startedDelayed();
+            console.log(ends);
+        }
+
+        asyncFunction();
+
+    </script>
+</body>
+
+</html>

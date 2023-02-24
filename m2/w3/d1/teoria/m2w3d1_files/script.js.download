@@ -1,0 +1,42 @@
+let nome= document.querySelector('#nome')
+let cognome= document.querySelector('#cognome')
+let data= document.querySelector('#data')
+let bottone= document.querySelector('#button')
+let tabella= document.querySelector('#tabella')
+
+let aggiungi= function(){
+    nomePersona= nome.value
+    cognomePersona= cognome.value
+    dataPersona= data.value
+    calcAge()
+
+}
+
+
+
+bottone.addEventListener('click', aggiungi)
+
+
+
+
+
+
+
+
+
+
+
+function calcAge (birthday) {
+    birthday = new Date(data);
+    oggi = new Date();
+ 
+    var anni = (oggi.getFullYear() - birthday.getFullYear());
+ 
+    if (oggi.getMonth() < birthday.getMonth() || 
+        oggi.getMonth() == birthday.getMonth() && oggi.getDate() < birthday.getDate()) {
+        anni--;
+    }
+    console.log(anni)
+
+    return anni;
+    }

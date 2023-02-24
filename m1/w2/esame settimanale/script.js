@@ -28,10 +28,8 @@ function del(){
 
     str=Math.sin(eval(str))
 
-    let snd=new Audio('Vivo per lei con testo -Andrea Bocelli e Giorgia.mp3')
-    snd.play
+    
 }
-
 //la funzione sin ci permette di fare il seno di un numero 
 function sin(){
     

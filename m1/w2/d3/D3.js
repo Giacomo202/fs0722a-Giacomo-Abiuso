@@ -74,17 +74,12 @@
   Alla fine mostra il risultato in console.
   */
 
- let x = 8 
- let y = 5
- let z = 2
+  var treNumeri = [5, 8, 2, 15, 26, 125]
+  treNumeri.sort(function(a, b){
+    return b-a;
 
- if (z>x && z>y){
-  console.log(z+ ' è il numero più grande' )
- } else if(y>x && y>z){
-  console.log(y+ ' è il numero più grande')
- }else if(x>y && x>z){
-  console.log(x+' è il numero più grande')
- }
+  })
+  console.log(treNumeri)
 
   /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").

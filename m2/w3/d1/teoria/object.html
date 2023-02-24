@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oggetti</title>
+</head>
+<body>
+
+    <!-- tipi di dato primitivi (stringhe,numeri,...) ciò che non è un tipo di dato primitivo è un oggetto 
+    contenitore di dati eterogenei che forma una struttura dati unica
+        oggetti-> dati detti proprietà -> coppie nome/valore        giacomo { età: 20}
+               -> funzionalità dette metodi -> rappresentati da funzioni 
+
+    -->
+    <script>
+        let oggettovuoto={}; // dichiaro un oggetto vuoto -> notazione letterale -> usa le parentesi graffe
+        var persona = {'nome': 'mario', 'cognome': 'rossi'} // inserisco delle proprietà cioè delle coppie nome:valore
+        let porsona = {nome: 'mario', cognome: 'rossi'}    // i doppi apici sono opzionali eprché non contravvengo a nessuna regola di naming
+        var persona = {'primo-nome': Mario, 'secondo-nome':'Rossi'} //qui contravvengo alle regole di naming quindi devo usare gli apici ''
+        //una proprietà può avere come valore qualsiasi espressione derivante da un'espressione javascritpt COMPRESO un oggetto
+        let persona ={
+            nome: 'MArio',
+            cognome: 'Rossi',
+            indirizzo:{     //la proprietà indirizzo è a sua volt un oggetto composto da specifiche proprietà 
+                via: 'via Roma',
+                numero:1,
+                cap: 20100
+            }
+        }
+        // come accedere alle proprietà di un oggetto
+        //dot noration oggetto.proprietà 
+        var nome= persona.nome; //approccio più utilizzato, più compatto e migliore
+        var nome= persona{'nome'}; //altro approccio -> obbligatorio quando il nome della proprietà non segue le regole di naming
+        //se provo ad accedere ad una proprietà non definita mi restituisce undefined
+
+        //creazione per definizione
+        //assegnamo un valore a una proprietà non definità -> creiamo una nuova proprietà inizializzando con un valore
+        persona.età= 20;
+        // oggetti sono entità dinamiche, possono evolvere/modificarsi durante l'esecuzione di uno script -> definizione incrementale
+        // l'oggetto avrà una rappresentazione di base che può essere arricchita via via con le proprietà che vogliamo
+
+        // metodi
+        // attività che un oggetto può compiere 
+        function visualizzaNomeCognome () {
+            return 'Mario Rossi';
+        }
+        persona.nomeCognome=visualizzaNomeCognome
+        // assegnamo alla proprietà il risultato della funzione tramite il suo nome (non il risultato della chiamata alla funzione)
+        //la proprietà nomeCognome contiene una funzione e quindi è un metodo
+
+        let nomeCognome= persona.nomeCognome();     //per eseguirlo faccio riferimento ad esso con le () perché è come si chiama a funzione
+        persona.nomeCognome= function(){return 'Mario Rossi'}     //metodo alternativo per eseguire la funzione
+
+        // un metodo per visualizzare il valore corrente delle proprietà usiamo la keyword This
+        persona.nomeCognome= function() { return this.nome+ ' ' + this.cognome} // restituisce i valori correnti delle proprietà
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+</body>
+</html>
