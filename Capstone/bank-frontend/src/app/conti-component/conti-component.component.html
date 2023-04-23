@@ -1,0 +1,19 @@
+
+<table class="table mt-3">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">proprietario</th>
+      <th scope="col">iban</th>
+      <th scope="col">ammontare</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let conto of conti">
+      <th scope="row">{{conto.id}}</th>
+      <td>{{conto.utente.nome}} {{conto.utente.cognome}}</td>
+      <td>{{conto.iban}}</td>
+      <td>{{conto.ammontare}}</td>
+    </tr>
+  </tbody>
+</table>

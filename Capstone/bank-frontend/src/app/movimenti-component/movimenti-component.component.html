@@ -1,0 +1,23 @@
+
+<table class="table mt-3">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">ammontare movimento</th>
+      <th scope="col">ordinante</th>
+      <th scope="col">beneficiario</th>
+      <th scope="col">tipo spesa</th>
+      <th scope="col">data</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let movimento of movimenti">
+      <th scope="row">{{movimento.id}}</th>
+      <td>{{movimento.ammontareMovimento}}</td>
+      <td>{{movimento.ordinante.utente.nome}} {{movimento.ordinante.utente.cognome}}</td>
+      <td>{{movimento.beneficiario.utente.nome}} {{movimento.beneficiario.utente.cognome}}</td>
+      <td>{{movimento.tipoSpesa}}</td>
+      <td>{{movimento.data}}</td>
+    </tr>
+  </tbody>
+</table>

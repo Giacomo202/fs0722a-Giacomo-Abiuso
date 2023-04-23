@@ -1,0 +1,23 @@
+
+
+
+<table class="table mt-3">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">nome</th>
+      <th scope="col">cognome</th>
+      <th scope="col">codice Fiscale</th>
+      <th scope="col">data di nascita</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let utente of utenti">
+      <th scope="row">{{utente.id}}</th>
+      <td>{{utente.nome}}</td>
+      <td>{{utente.cognome}}</td>
+      <td>{{utente.codiceFiscale}}</td>
+      <td>{{utente.dataDiNascita}}</td>
+    </tr>
+  </tbody>
+</table>
